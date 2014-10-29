@@ -1,0 +1,50 @@
+html, body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  background-color: white;
+  top: 40%;
+  position: relative;
+}
+h1 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav {
+  text-align: center;
+}
+nav * {
+  vertical-align: middle;
+}
+nav a {
+  color: #333;
+  display: inline-block;
+  line-height: 2em;
+  margin: 0 1em;
+  padding: 0 0.5em;
+  text-decoration: none;
+}
+nav h1 {
+  display: inline-block;
+}
+
+nav a.github {
+  background-color: black;
+  color: #f5f5f5;
+}
+nav a.linkedin {
+  background-color: #1985bc;
+  color: white;
+}
+nav a.facebook {
+  background-color: #415e9b;
+  color: white;
+}
+
+nav a.blog {
+  background-color: #00da00;
+  color: white;
+}
