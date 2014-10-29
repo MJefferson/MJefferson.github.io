@@ -1,0 +1,26 @@
+{
+  "name": "MartialsBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MJefferson/MJefferson.github.io.git"
+  },
+  "keywords": [
+    "martial",
+    "jefferson"
+  ],
+  "author": "Martial Jefferson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJefferson/MJefferson.github.io/issues"
+  },
+  "homepage": "https://github.com/MJefferson/MJefferson.github.io",
+  "devDependencies": {
+    "journo": "0.0.1"
+  }
+}
