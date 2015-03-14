@@ -1,5 +1,4 @@
 html, body {
-  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -27,24 +26,23 @@ nav a {
   padding: 0 0.5em;
   text-decoration: none;
 }
+
 nav h1 {
   display: inline-block;
 }
 
 nav a.github {
-  background-color: black;
-  color: #f5f5f5;
+  color: black;
 }
+
 nav a.linkedin {
-  background-color: #1985bc;
-  color: white;
+  color: #1985bc;
 }
+
 nav a.facebook {
-  background-color: #415e9b;
-  color: white;
+  color: #415e9b;;
 }
 
 nav a.blog {
-  background-color: #00da00;
-  color: white;
+  color: #00da00;
 }
