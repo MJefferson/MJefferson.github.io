@@ -1,48 +1,111 @@
+@font-face {
+    font-family: "Bebas";
+    src: url('../bebasneue-webfont.eot');
+    src: url('../bebasneue-webfont.eot?#iefix') format('embedded-opentype'), url('../bebasneue-webfont.woff2') format('woff2'), url('bebasneue-webfont.woff') format('woff'), url('../bebasneue-webfont.ttf') format('truetype'), url('../bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
-  height: 100%;
-  width: 100%;
+    color: #FFF;
+    font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    height: 100%;
+    width: 100%;
 }
+
 .content {
-  background-color: white;
-  top: 40%;
-  position: relative;
+    height: 100%;
+    width: 100%;
 }
+
+section.hero {
+    background-color: #01903a;
+    /*background: radial-gradient(384px at 294px, #01903a 0%, #177f27 100%);*/
+    background: url('../img/bg-pattern.jpg');
+    line-height: 715px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    color: #FFF;
+    font-weight: normal;
+}
+
 h1 {
-  color: black;
-  text-align: center;
-  text-transform: uppercase;
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+section nav, section h3, section img {
+    display: inline-block;
+    text-align: center;
+}
+
+h2.name-banner {
+    left: 53%;
+    line-height: 55px;
+    position: absolute;
+    top: 253px;
+    z-index: 0;
+}
+
+img {
+    background: repeat url('../img/bg-pattern.jpg');
+    height: 382px;
+    position: relative;
+    width: 382px;
+    z-index: 2;
+}
+
 nav {
-  text-align: center;
+    font-size: 0px;
+    position: relative;
+    left: -38px;
+    top: 12px;
+    text-align: center;
+    z-index: 1;
 }
+
 nav * {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 nav a {
-  color: #333;
-  display: inline-block;
-  line-height: 2em;
-  margin: 0 1em;
-  padding: 0 0.5em;
-  text-decoration: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #DFDFDF;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 0 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 125px;
+    transition: 0.8s background, color ease-in;
 }
 
-nav h1 {
-  display: inline-block;
-}
-
-nav a.github {
-  color: black;
-}
-
-nav a.linkedin {
-  color: #1985bc;
-}
-
-nav a.facebook {
-  color: #415e9b;;
-}
-
-nav a.blog {
-  color: #00da00;
+nav a:hover {
+    background: #EFEFEF;
+    color: #01903a;
 }
