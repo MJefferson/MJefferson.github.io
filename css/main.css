@@ -83,6 +83,16 @@ img.martial-bg {
     right: 0px;
 }
 
+div.vignette {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: radial-gradient(43rem at center, rgba(255,255,255, 0) 70%, rgba(0,0,0,0.3) 100%);
+    box-sizing: border-box;
+    top: 0px;
+}
+
 nav {
     font-size: 0px;
     position: relative;
