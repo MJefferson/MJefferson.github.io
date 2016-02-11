@@ -51,13 +51,17 @@ section.social-links a, section.social-links a:-webkit-any-link {
     margin: 0px 0.2rem;
 }
 
+section.social-links a:hover, section.social-links a:-webkit-any-link:hover {
+    color: #FFF;
+}
+
 section.hero nav .bar {
     position: absolute;
 }
 
 section.hero nav .horizontal.bar {
     top: 0px;
-    background-color: rgba(27, 144, 58, 0.7);
+    background-color: rgba(27, 144, 58, 0.3);
     height: 50px;
     left: -50rem;
     width: 100rem;
@@ -132,7 +136,7 @@ div.vignette {
     height: 100%;
     width: 100%;
     z-index: 1;
-    background: radial-gradient(43rem at center, rgba(255,255,255, 0) 70%, rgba(0,0,0,0.2) 100%);
+    background: radial-gradient(43rem at center, rgba(255,255, 150, 0.15) 70%, rgba(0,0,0,0.2) 100%);
     box-sizing: border-box;
     top: 0px;
 }
