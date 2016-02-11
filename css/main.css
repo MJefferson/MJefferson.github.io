@@ -15,12 +15,11 @@ html, body {
 
 .content {
     height: 100%;
+    max-height: 768px;
     width: 100%;
 }
 
 section.hero {
-    background-color: #01903a;
-    /*background: radial-gradient(384px at 294px, #01903a 0%, #177f27 100%);*/
     background: url('../img/bg-pattern.jpg');
     line-height: 715px;
     height: 100%;
@@ -67,24 +66,30 @@ h2.name-banner {
     line-height: 55px;
     position: absolute;
     top: 253px;
-    z-index: 0;
+    z-index: 1;
 }
 
-img {
-    background: repeat url('../img/bg-pattern.jpg');
+img.insignia {
     height: 382px;
     position: relative;
     width: 382px;
-    z-index: 2;
+    z-index: 3;
+}
+
+img.martial-bg {
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    right: 0px;
 }
 
 nav {
     font-size: 0px;
     position: relative;
-    left: -38px;
+    left: 0px;
     top: 12px;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav * {
@@ -93,7 +98,7 @@ nav * {
 
 nav a {
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     color: #DFDFDF;
     display: inline-block;
     font-size: 24px;
@@ -103,6 +108,10 @@ nav a {
     text-transform: uppercase;
     width: 125px;
     transition: 0.8s background, color ease-in;
+}
+
+nav a:first-child {
+    width: 75px;
 }
 
 nav a:hover {
