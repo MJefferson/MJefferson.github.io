@@ -1,8 +1,9 @@
 # Martial Jefferson
-_they, them , theirs_
 
-* Publications and Notable Work
+:see_no_evil:	
 
-* Biography
+Bio?
 
-* Contact
+living coursework, curriculum vitae, 
+
+various source codes, projects, writings, and intellectual property to survey.
